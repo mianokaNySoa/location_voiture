@@ -1,0 +1,558 @@
+[
+  {
+    "_id": {
+      "$oid": "65b79726194c3455a81d8df9"
+    },
+    "nomVoiture": "Toyota RAV4",
+    "marque": {
+      "_id": 1,
+      "libelle": "Toyota",
+      "pays": {
+        "_id": 12,
+        "libelle": "Japon",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 1,
+      "libelle": "SUV",
+      "etat": 1
+    },
+    "type": {
+      "_id": 1,
+      "libelle": "4x4",
+      "etat": 1
+    },
+    "prix": 30000,
+    "date": {
+      "$date": "2022-01-26T14:30:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 3,
+      "nom": "Rakotonirina",
+      "prenom": "Alphonse",
+      "email": "alphonse@gmail.com",
+      "dtn": {
+        "$date": "1999-12-25T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Toyota RAV4 2022 en excellent état. Parfait pour les aventures en plein air. Faible consommation de carburant et entretien régulier.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_3_image_0b1d8a96-a9da-4af7-bdef-015b8850186a.jpg?alt=media"
+      },
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_3_image_b5165190-5be3-460c-8c38-ed77f51e0240.jpg?alt=media"
+      },
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_3_image_3c29b561-6a74-4024-9e2a-86e7a3b65f66.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b7987b194c3455a81d8dfa"
+    },
+    "nomVoiture": "Toyota Yaris",
+    "marque": {
+      "_id": 1,
+      "libelle": "Toyota",
+      "pays": {
+        "_id": 12,
+        "libelle": "Japon",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 4,
+      "libelle": "Compacte",
+      "etat": 1
+    },
+    "type": {
+      "_id": 6,
+      "libelle": "Citadine",
+      "etat": 1
+    },
+    "prix": 15000,
+    "date": {
+      "$date": "2022-01-26T14:45:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 3,
+      "nom": "Rakotonirina",
+      "prenom": "Alphonse",
+      "email": "alphonse@gmail.com",
+      "dtn": {
+        "$date": "1999-12-25T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Toyota Yaris 2019 en excellent état. Idéale pour la conduite en ville avec une faible consommation de carburant.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_3_image_fed1ff52-a9d3-47a6-b543-5c02fd2851b1.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b7988c194c3455a81d8dfb"
+    },
+    "nomVoiture": "BMW Serie 3",
+    "marque": {
+      "_id": 8,
+      "libelle": "BMW",
+      "pays": {
+        "_id": 2,
+        "libelle": "Allemagne",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 6,
+      "libelle": "Citadine",
+      "etat": 1
+    },
+    "type": {
+      "_id": 6,
+      "libelle": "Citadine",
+      "etat": 1
+    },
+    "prix": 25000,
+    "date": {
+      "$date": "2022-01-26T15:00:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 3,
+      "nom": "Rakotonirina",
+      "prenom": "Alphonse",
+      "email": "alphonse@gmail.com",
+      "dtn": {
+        "$date": "1999-12-25T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "BMW Serie 3 en excellent état. Performances exceptionnelles et confort de conduite incomparable.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_3_image_db163f1b-c355-4fd1-93fd-c232f8ffc5c2.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b798be194c3455a81d8dfc"
+    },
+    "nomVoiture": "Audi Q7",
+    "marque": {
+      "_id": 19,
+      "libelle": "Audi",
+      "pays": {
+        "_id": 2,
+        "libelle": "Allemagne",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 1,
+      "libelle": "SUV",
+      "etat": 1
+    },
+    "type": {
+      "_id": 1,
+      "libelle": "4x4",
+      "etat": 1
+    },
+    "prix": 40000,
+    "date": {
+      "$date": "2022-01-26T15:15:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 4,
+      "nom": "Rabekoto",
+      "prenom": "Jean",
+      "email": "jean@gmail.com",
+      "dtn": {
+        "$date": "1995-05-11T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Audi Q7 en excellent état. Confort et luxe associés à des performances exceptionnelles.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_4_image_87559cdc-3106-456e-a63e-575f63a2147e.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b798cd194c3455a81d8dfd"
+    },
+    "nomVoiture": "Ford Kuga",
+    "marque": {
+      "_id": 3,
+      "libelle": "Ford",
+      "pays": {
+        "_id": 13,
+        "libelle": "Etats-Unis",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 1,
+      "libelle": "SUV",
+      "etat": 1
+    },
+    "type": {
+      "_id": 1,
+      "libelle": "4x4",
+      "etat": 1
+    },
+    "prix": 28000,
+    "date": {
+      "$date": "2022-01-26T15:30:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 4,
+      "nom": "Rabekoto",
+      "prenom": "Jean",
+      "email": "jean@gmail.com",
+      "dtn": {
+        "$date": "1995-05-11T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Ford Kuga en excellent état. Parfait pour les aventures en plein air avec un design robuste et une grande polyvalence.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_4_image_1a0b01f3-9a88-41eb-9fa2-e934ccd3dffa.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b798da194c3455a81d8dfe"
+    },
+    "nomVoiture": "Mercedes classe G",
+    "marque": {
+      "_id": 17,
+      "libelle": "Mercedes",
+      "pays": {
+        "_id": 2,
+        "libelle": "Allemagne",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 6,
+      "libelle": "Tout terrain",
+      "etat": 1
+    },
+    "type": {
+      "_id": 1,
+      "libelle": "4x4",
+      "etat": 1
+    },
+    "prix": 60000,
+    "date": {
+      "$date": "2022-01-26T15:45:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 4,
+      "nom": "Rabekoto",
+      "prenom": "Jean",
+      "email": "jean@gmail.com",
+      "dtn": {
+        "$date": "1995-05-11T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Mercedes classe G en excellent état. Conçu pour la conduite hors route avec un style élégant et des performances exceptionnelles.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_4_image_0e92f625-0371-4943-bc7a-5b84a1b64526.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b79902194c3455a81d8dff"
+    },
+    "nomVoiture": "Mercedes classe E",
+    "marque": {
+      "_id": 17,
+      "libelle": "Mercedes",
+      "pays": {
+        "_id": 2,
+        "libelle": "Allemagne",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 1,
+      "libelle": "Berline",
+      "etat": 1
+    },
+    "type": {
+      "_id": 6,
+      "libelle": "Citadine",
+      "etat": 1
+    },
+    "prix": 35000,
+    "date": {
+      "$date": "2022-01-26T16:00:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 5,
+      "nom": "Randriankoto",
+      "prenom": "Laurent",
+      "email": "laurent@gmail.com",
+      "dtn": {
+        "$date": "2001-06-12T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Mercedes classe E en excellent état. Luxe et élégance associés à des performances exceptionnelles.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_5_image_2bc07aab-c655-4bef-b388-503b8edbfe05.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b79912194c3455a81d8e00"
+    },
+    "nomVoiture": "Nissan Leaf",
+    "marque": {
+      "_id": 1,
+      "libelle": "Nissan",
+      "pays": {
+        "_id": 12,
+        "libelle": "Japon",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 4,
+      "libelle": "Compacte",
+      "etat": 1
+    },
+    "type": {
+      "_id": 6,
+      "libelle": "Citadine",
+      "etat": 1
+    },
+    "prix": 28000,
+    "date": {
+      "$date": "2022-01-26T16:15:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 5,
+      "nom": "Randriankoto",
+      "prenom": "Laurent",
+      "email": "laurent@gmail.com",
+      "dtn": {
+        "$date": "2001-06-12T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 3,
+      "libelle": "Electrique",
+      "etat": 1
+    },
+    "description": "Nissan Leaf 2020 en excellent état. Voiture électrique écologique avec des caractéristiques modernes.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_5_image_0cdf38a6-3e24-44eb-b614-357a95a969ac.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b79926194c3455a81d8e01"
+    },
+    "nomVoiture": "Nissan Juke",
+    "marque": {
+      "_id": 1,
+      "libelle": "Nissan",
+      "pays": {
+        "_id": 12,
+        "libelle": "Japon",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 1,
+      "libelle": "SUV",
+      "etat": 1
+    },
+    "type": {
+      "_id": 1,
+      "libelle": "4x4",
+      "etat": 1
+    },
+    "prix": 22000,
+    "date": {
+      "$date": "2022-01-26T16:30:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 5,
+      "nom": "Randriankoto",
+      "prenom": "Laurent",
+      "email": "laurent@gmail.com",
+      "dtn": {
+        "$date": "2001-06-12T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Nissan Juke en excellent état. Design unique et performances fiables pour une conduite urbaine dynamique.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_5_image_5c4a35c0-fb1f-4aa4-9adf-4b0babc5da48.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  },
+  {
+    "_id": {
+      "$oid": "65b79935194c3455a81d8e02"
+    },
+    "nomVoiture": "Chevrolet Silverado",
+    "marque": {
+      "_id": 3,
+      "libelle": "Chevrolet",
+      "pays": {
+        "_id": 13,
+        "libelle": "Etats-Unis",
+        "etat": 1
+      },
+      "etat": 1
+    },
+    "categorie": {
+      "_id": 6,
+      "libelle": "Tout terrain",
+      "etat": 1
+    },
+    "type": {
+      "_id": 3,
+      "libelle": "Pickup",
+      "etat": 1
+    },
+    "prix": 35000,
+    "date": {
+      "$date": "2022-01-26T16:45:00.000Z"
+    },
+    "utilisateur": {
+      "_id": 5,
+      "nom": "Randriankoto",
+      "prenom": "Laurent",
+      "email": "laurent@gmail.com",
+      "dtn": {
+        "$date": "2001-06-12T00:00:00.000Z"
+      },
+      "mdp": "1234",
+      "isadmin": 0,
+      "actif": 1
+    },
+    "carburant": {
+      "_id": 2,
+      "libelle": "Diesel",
+      "etat": 1
+    },
+    "description": "Chevrolet Silverado en excellent état. Pickup robuste avec une grande capacité de charge.",
+    "photo": [
+      {
+        "link": "https://firebasestorage.googleapis.com/v0/b/voiture-cloud-pictures.appspot.com/o/user_5_image_9c9039d4-8bf0-4328-8545-8d5e6199eb9c.jpg?alt=media"
+      }
+    ],
+    "etat": 0,
+    "_class": "cloud.voiture.model.Annonce"
+  }
+]

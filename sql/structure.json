@@ -1,0 +1,43 @@
+[
+    {
+        "marque": {
+            "id": 1,
+            "libelle": "Eny",
+            "pays":{
+                "id":16,
+                "libelle":"test ihany",
+                "etat":1
+            },
+            "etat": 0
+        },
+        "type": {
+            "id": 1,
+            "libelle": "4x4",
+            "etat": 0
+        },
+        "categorie": {
+            "id": 1,
+            "libelle": "SUV",
+            "etat": 0
+        },
+        "utilisateur": {
+            "id":1,
+            "nom":"nom1",
+            "prenom":"prenom1"
+        },
+        "etat": 0,
+        "description": "Une description de l'annonce contenant des mots-clés",
+        "prix":100,
+        "date": "2020-05-18T14:10:30.000+00:00",
+        "photo": [
+            {
+                "data": "lavabe",
+                "type": "img/jpeg"
+            }
+        ]
+    },
+    {
+        "idutilisateur":1,
+        "idannonce":"65a3a5222e015228faea1846"
+    }
+]

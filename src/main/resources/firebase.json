@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "voiture-cloud-pictures",
+  "private_key_id": "484f0612355437d4958846f87f20e8ddf7c4d721",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCWTSKrSk6igFpX\nFsTXyM+TSQun2C1Uo5k38S40LPO0v8KQRdyr68S44X1w5qwILDudzN5zsfMLIK0J\nouDEv5T8UwU4yFnxYO0pCGKOd95Ajn7ippt1tER9wRXcQ32Y4GFDlOP+P+MzjYv2\n/yuZmyCijlMH0tO9fs+z0lh9cnmfpCd2R5erzETlAyii2l7ne9nli7CXgv21TN0n\n6BT0G2GkFjLfflbMZ5fCE+Bqy02r9/2U9jS3SUNxDBmjjfkd8P+u8WqF0gSmvM9Y\nuNCQcbhrOQzwkz3tY3PbTMcuyIjonKxjtrFo2bzy2dYos2RccLxmQ+LdqtUFgoO9\nqv7nCJkFAgMBAAECggEANCF+8+BrE8vnCavZDGsXLCO6yjWdy2yO+StK9kfdI4Ub\na8T/fBXjfqifRKiNZKxK5TmosoI3JVXpDp2SzksQ1s/I0OAU6jbPK1tAK+ABk2yZ\nL+3Pn+ytkNyGw4YZKwwwUCt1RLtOB5SBxmLM8ZMvp5Ir1FvYmzI/wkQj8ybgbnEO\nBhy4FGkeQPbHFdKXWlX7eFJvOZxB3tKZJnCu67NhBNgTmYxfi1EK0fAkx0IHVnOX\n/7Clvuks38A+E+vI7TK3LiFL28OQ4/VLcu1PFcyiej9BFk1UrAq/tjQ/Gt14h8p4\nPCQ1sBHW/+vSMhLjFsMSM2JOFQ5qaUfV+2Z/WQo/ZQKBgQDO+rSiSTNlKH3DnCSh\n14NlB6h0lTBuzW1ywjLNxclmf+tsjmiQMzmXYsa5rsTZWDWemIhQbz67wqu/fJk/\nr+UIC+vqDpLiju0/Hxc5h7bx4xw8fq0bYw9wMYtb9G5llEr3kZqOSeSKSrLdzqQZ\nvlkqtoT5AWplsDYdw7gx1GdelwKBgQC55gEZqLlvx0as1pRBESBzWqxhrjM10jub\nn60hpq/PJheC6r8FuemDx3/M5yw1roKtsazR2alilZ7wGDoCxOpvhi9dBewLfsdQ\nnS4bk8C1IgvzdsVROqHn+FIfbrEtwVNWzCLOakXsmQGzzN19B+jR/+GsriZs4afm\nf1T8ww5UwwKBgAacMRqhtdd8NJADs5PLmzGlzfZzMUnIm783foHd2DHC0hT0c1hv\nml5AVFJnx3edfpDjFC9lbh52+B80bnx/NJRONSmTb5N2txL1/jrjH6+X7jXsYcDn\nJ/4QRwAXzVLHKqG/b60tpPPZsN6uk8UStCxOCe8d4XT/7KqErqRAwVBfAoGAKyKi\nqLiM5tH/pUVZO0vlEr88dqH8QgXZTQAdJUzPSKrXE8qyrnp4I9rb3cjaak5nBjTP\nHBZ8hmKfcai9dT0KBPzG6rfgEL7HMv5133JGagFPcpvhpzqKrQ/ixmZh+HL+iopt\nnSXtubu7OGRWFJgMPwY38GCsi+FEm2h6aPg90A8CgYEApg7vMNGD4LcuvjhQZgu2\nTTlPrSXmUyAGt2MyQOGZxXWgD7lHuoamCaB+Xi2k++gWvNgT0LI44BpyYm6DDSAh\nExbnh3+Ok8P7gSiIejTwvbmRVLuGL+BH56gt1jFkY7hBM4TUj1nhYMizBRcn+9Lp\nLuVjCbeXqsXKDet3KubTg/0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-wwcuk@voiture-cloud-pictures.iam.gserviceaccount.com",
+  "client_id": "113981482443004365532",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-wwcuk%40voiture-cloud-pictures.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
